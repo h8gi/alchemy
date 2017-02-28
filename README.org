@@ -1,0 +1,8 @@
+* Algorithmic Chemistry
+  様々なスケールで変異が生じる。 相互作用のネットワークが変異によって変化。複雑
+  新たなobjectの生成は、
+  - 相互作用: e.g. 化学反応
+  - ノイズ: e.g. mutation
+  の両極の間にある。
+
+  supramolecular aggregate
