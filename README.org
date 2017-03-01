@@ -1,8 +1,32 @@
-* Algorithmic Chemistry
+#+TITLE: Algorithmic Chemistry
+
+* WHAT THIS IS ALL ABOUT
+
+** INNOVATION
+  
   様々なスケールで変異が生じる。 相互作用のネットワークが変異によって変化。複雑
   新たなobjectの生成は、
   - 相互作用: e.g. 化学反応
   - ノイズ: e.g. mutation
   の両極の間にある。
 
+** FUNCTION
+  
   supramolecular aggregate
+  分子のレベルになると 組み合わせ多様な構造が相互に操作しあう 記号操作のように
+  nuclear,atomic,astronomic systems とは違い、分子のレベルでは「関数の相互作用」という表現が
+  適切である。
+
+** ARTIFICIAL WORLDS BEYOND LOTKA-VOLTERRA
+   
+  functionの相互作用によって
+  1. 非線形な力学系のサポート
+  2. 力学系のサポートの変化
+
+  $a_{ijk}$ はオブジェクトiがオブジェクトjとオブジェクトkの相互作用によって生み出される確率。
+
+  \begin{equation}
+  \dot{x}_i = \sum_{j,k}a_{ijk}x_{j}x_{k} + \sum_{j,k,l}a_{ijkl}x_{j}x_{k}x_{l}+ \cdots -\Omega(t)x_{i}, 　　　i=1,2,\cdots
+  \end{equation}
+  
+  dilute
